@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>tlog-spring-boot</artifactId>
-        <groupId>com.yomahub</groupId>
-        <version>1.5.0</version>
+        <groupId>com.github.jinzongmin</groupId>
+        <version>1.5.0-sb3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,37 +13,37 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-feign</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-webroot</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-gateway</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-webflux</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-task</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-xxl-job</artifactId>
             <version>${project.version}</version>
             <optional>true</optional>

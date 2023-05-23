@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>tlog</artifactId>
-        <groupId>com.yomahub</groupId>
-        <version>1.5.0</version>
+        <groupId>com.github.jinzongmin</groupId>
+        <version>1.5.0-sb3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -12,7 +12,7 @@
     <artifactId>tlog-gateway</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-webflux</artifactId>
             <version>${project.version}</version>
         </dependency>

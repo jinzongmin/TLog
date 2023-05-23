@@ -3,9 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.yomahub</groupId>
+        <groupId>com.github.jinzongmin</groupId>
         <artifactId>tlog</artifactId>
-        <version>1.5.0</version>
+        <version>1.5.0-sb3</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.yomahub</groupId>
+            <groupId>com.github.jinzongmin</groupId>
             <artifactId>tlog-common</artifactId>
             <version>${project.version}</version>
         </dependency>
