@@ -4,9 +4,9 @@ import com.yomahub.tlog.constant.TLogConstants;
 import com.yomahub.tlog.context.TLogContext;
 import com.yomahub.tlog.web.common.TLogWebCommon;
 
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
@@ -27,11 +27,11 @@ public class TLogServletFilter implements Filter {
                 TLogWebCommon.loadInstance().preHandle((HttpServletRequest)request);
                 //把traceId放入response的header，为了方便有些人有这样的需求，从前端拿整条链路的traceId
                 ((HttpServletResponse)response).addHeader(TLogConstants.TLOG_TRACE_KEY, TLogContext.getTraceId());
+                chain.doFilter(request, response);
             }finally {
                 TLogWebCommon.loadInstance().afterCompletion();
             }
         }
-        chain.doFilter(request, response);
     }
 
     @Override

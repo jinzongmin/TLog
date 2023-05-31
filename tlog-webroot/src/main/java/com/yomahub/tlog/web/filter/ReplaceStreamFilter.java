@@ -2,8 +2,8 @@ package com.yomahub.tlog.web.filter;
 
 import com.yomahub.tlog.web.wrapper.RequestWrapper;
 
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
